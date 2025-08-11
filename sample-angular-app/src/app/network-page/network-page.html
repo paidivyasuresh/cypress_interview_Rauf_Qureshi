@@ -1,0 +1,5 @@
+<h2>Network Demo</h2>
+<button id="load-users" (click)="loadUsers()">Load Users</button>
+<ul id="users-list">
+	<li *ngFor="let user of users">{{ user.name }}</li>
+</ul>
