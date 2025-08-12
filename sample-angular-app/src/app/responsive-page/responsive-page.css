@@ -1,0 +1,16 @@
+/* Hide desktop menu on small screens, show on large */
+#desktop-menu {
+	display: block;
+}
+@media (max-width: 600px) {
+	#desktop-menu {
+		display: none;
+	}
+	#mobile-menu-btn {
+		display: block;
+	}
+}
+/* Hide mobile menu button on desktop, show on mobile */
+#mobile-menu-btn {
+	display: none;
+}

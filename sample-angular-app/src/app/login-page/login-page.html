@@ -1,7 +1,7 @@
-<h2>Flaky Demo</h2>
-<div id="flaky-message">flaky-page works!</div>
+<h2>Login Demo</h2>
+<div id="login-message">login-page works!</div>
 
-<!-- Flaky Login Form -->
+<!-- Login Form -->
 <form (ngSubmit)="onLogin()" *ngIf="!loginSuccess" style="margin-top:2em;">
 	<input type="text" placeholder="Username" [(ngModel)]="username" name="username" required>
 	<input type="password" placeholder="Password" [(ngModel)]="password" name="password" required>
@@ -9,4 +9,4 @@
 </form>
 <div *ngIf="loginSuccess" style="color: green; font-weight: bold;">Login successful!</div>
 
-<button *ngIf="showButton" id="flaky-btn">Register</button>
+<button *ngIf="showButton" id="register-btn">Register</button>
