@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "sample-angular-app": {
+  "cypress_interview": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:class": {
@@ -31,8 +31,8 @@
           "skipTests": true
         }
       },
-      "root": "",
-      "sourceRoot": "src",
+  "root": "",
+  "sourceRoot": "src",
       "prefix": "app",
       "architect": {
         "build": {
@@ -82,10 +82,10 @@
           "options": {},
           "configurations": {
             "production": {
-              "buildTarget": "sample-angular-app:build:production"
+              "buildTarget": "cypress_interview:build:production"
             },
             "development": {
-              "buildTarget": "sample-angular-app:build:development"
+              "buildTarget": "cypress_interview:build:development"
             }
           },
           "defaultConfiguration": "development"
