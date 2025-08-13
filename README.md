@@ -4,12 +4,7 @@ This project is a minimal Angular app with Cypress configured as the test runner
 
 ## Test Scenarios & Issues
 
-- **Login Page (Flaky/Selector Issues):** `cypress/e2e/login/login.cy.ts`
-- **Network Stubbing/Mocking:** `cypress/e2e/network/network.cy.ts`
-- **Iframe Handling:** `cypress/e2e/iframe/iframe.cy.ts`
-- **File Upload/Download:** `cypress/e2e/file/file.cy.ts`
-- **Responsiveness:** `cypress/e2e/responsive/responsive.cy.ts`
-- **Command Chaining:** `cypress/e2e/chaining/chaining.cy.ts`
+
 
 ## How to Use
 
@@ -29,12 +24,7 @@ This project is a minimal Angular app with Cypress configured as the test runner
 
 ## Interview Discussion Points
 
-- How to identify and fix flaky tests (see login test)
-- Proper selector usage and async handling
-- Network request stubbing/mocking
-- Handling iframes, file upload/download, and responsive tests
-- Improving test structure and organization
-- Command chaining for robust tests
+
 
 ---
 
