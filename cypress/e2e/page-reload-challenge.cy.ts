@@ -23,3 +23,26 @@ describe('Page reloads until lucky 7 (anti-pattern)', () => {
     // The above will not work as expected!
   });
 });
+
+
+//------------------------------------------------------------------
+// Expected
+
+// describe('Page reloads until lucky 7 (best practice)', () => {
+//   it('tries to reload until #result is 7 (best practice)', () => {
+//     cy.visit('/page-reload-challenge.html');
+//     const checkResult = () => {
+//       cy.get('#result').should('not.be.empty')
+//         .invoke('text').then(parseInt)
+//         .then((n) => {
+//           if (n === 7) {
+//             return;
+//           }
+//           cy.wait(500, { log: false });
+//           cy.reload();
+//           checkResult();
+//         });
+//     };
+//     checkResult();
+//   });
+// });
