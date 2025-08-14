@@ -1,0 +1,16 @@
+.challenge-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+#result {
+  color: #1976d2;
+  font-weight: bold;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin-top: 10px;
+  cursor: pointer;
+}

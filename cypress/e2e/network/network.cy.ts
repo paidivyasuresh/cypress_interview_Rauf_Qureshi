@@ -1,7 +1,7 @@
 
 
 describe('Network API Example', () => {
-  it('loads users from the real API (not best practice)', () => {
+  it('loads users from the API', () => {
     cy.visit('/network')
     cy.get('button#load-users').click()
     cy.get('#users-list').should('contain', 'Alice') 

@@ -24,7 +24,7 @@ describe('Login Form', () => {
 	it('register new user', () => {
 		cy.visit('/login');
 		cy.get('#register-btn').click(); 
-		cy.get('#register-btn').should('have.text', 'Clicked!');
+		cy.get('#register-btn').should('have.text', 'Register');
 	});
 
    
